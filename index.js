@@ -1,5 +1,6 @@
 const express = require('express')
 const app = express()
+const port = process.env.PORT || 80
 let price = require('crypto-price')
 
 app.get('/eth', (req, res) => {
