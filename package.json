@@ -1,6 +1,10 @@
 {
   "name": "RainCryptoWatcher",
   "version": "1.0.0",
+  "engines": {
+    "node": "14.16.1",
+    "npm": "6.14.12"
+  },
   "description": "Rainmeter Api for Crypto watch",
   "main": "index.js",
   "scripts": {
