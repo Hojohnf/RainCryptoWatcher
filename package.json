@@ -1,19 +1,19 @@
 {
   "name": "RainCryptoWatcher",
   "version": "1.0.0",
+  "author": "John Ho",
+  "license": "ISC",
+  "description": "Rainmeter Api for Crypto watch",
+  "main": "index.js",
   "engines": {
     "node": "14.16.1",
     "npm": "6.14.12"
   },
-  "description": "Rainmeter Api for Crypto watch",
-  "main": "index.js",
   "scripts": {
     "run": "node index.js"
   },
-  "author": "John Ho",
-  "license": "ISC",
   "dependencies": {
     "crypto-price": "0.0.6",
-    "express": "^4.17.2",
+    "express": "^4.17.2"
   }
 }
