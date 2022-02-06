@@ -10,7 +10,7 @@ new Promise(async (resolve, reject) => {
     const BASE_URL = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest?symbol=ETH&convert=EUR"
     response = await axios.get(BASE_URL, {
       headers: {
-        'X-CMC_PRO_API_KEY': '0dee75a6-d363-4dd4-bc57-5359fdc7650b',
+        'X-CMC_PRO_API_KEY': '***YOUR API KEY***',
       }
     });
   } catch(ex) {
